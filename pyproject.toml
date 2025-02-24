@@ -1,0 +1,23 @@
+[tool.poetry]
+package-mode = false
+name = "check-poetry"
+version = "0.1.0"
+description = ""
+authors = ["yoppiibra <yoppiibra@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.7"
+scikit-learn = "1.5.1"
+pandas = "^2.2.3"
+pydantic = "^2.10.6"
+pydantic-settings = "^2.7.1"
+loguru = "^0.7.3"
+sqlalchemy = "^2.0.38"
+flake8 = "^7.1.2"
+wemake-python-styleguide = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
